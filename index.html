@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>jQuery Signup Form Validation</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <main>
+      <article>
+        <div class="deco-img-wrap">
+          <img class="deco-img" src="./halie-west-unsplash-sm.jpg" alt=""/>
+          <div class="title-overlay">
+            <img class="logo" src="./odin-lined.png" alt="Portrait illustration of viking warrior Odin" />
+            <h1>Odin <span class="sr-only">Create an account</span></h1>
+          </div>
+          <p class="deco-img-attrb"><small>Photo by <a href="https://unsplash.com/fr/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small></p>
+        </div>
+
+        <div class="signup-txt">
+          <p class="pitch">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p> 
+          <p class="pitch">Sign up <span class="italic">now</span> to get started.</p>
+          <p class="pitch last">You <em>know</em> you want to.</p>
+          <form action="" name="signup" id="signup-form">
+            <div class="form-wrapper">
+              <p>Let's do this!</p>
+              <fieldset>
+                <div class="input-wrap">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" placeholder="Jane Smith"/>
+                </div>
+   
+                <div class="input-wrap">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" placeholder="jane.smith@mail.com"/>
+                </div>
+          
+                <div class="input-wrap">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"/>
+                </div>
+  
+              </fieldset>
+            </div>
+            <div class="form-actions">
+              <button class="create-acct" id="acct-btn">Create Account</button>
+              <p class="login-option">Already have an account? <a class="login" id="login-link">Log in</a></p>
+            </div>
+          </form>    
+        </div>
+      </article>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
